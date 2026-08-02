@@ -1,4 +1,16 @@
 aid: thinknear
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thinknear.png
 name: ThinkNear *
 description: 'ThinkNear * is a company surfaced as a portfolio company of gv, techstars and added to the
   API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
@@ -13,7 +25,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Enterprise
@@ -26,3 +38,8 @@ maintainers:
 common:
 - type: Website
   url: https://thinknear.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
